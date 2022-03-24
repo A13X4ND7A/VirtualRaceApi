@@ -1,0 +1,18 @@
+{
+  "name": "virtualraceapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd services/server/src; nodemon index.js",
+    "install:all": "npm i && npm i --prefix services/server && npm i --prefix services/client",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-A13X4ND7A:A13X4ND7A/VirtualRaceApi.git"
+  },
+  "author": "Alexandra Faller",
+  "license": "ISC",
+  "dependencies": {}
+}
